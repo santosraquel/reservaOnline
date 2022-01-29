@@ -2,7 +2,7 @@
 <html xmlns:layout="http://www.w3.org/1999/xhtml"
 	layout:decorate="~{administrativo/fragments/layout}">
 <head>
-<title>Página lista de funcionários da loja virtual</title>
+<title>Página lista de funcionários</title>
 </head>
 <body>
 	<section class="layout-content" layout:fragment="corpo">
@@ -96,6 +96,8 @@
 							<th>#</th>
 							<th>Nome</th>
 							<th>Cargo</th>
+							<th>E-mail</th>
+							<th>Senha</th>
 							<th>Salário Bruto</th>
 							<th>Cidade</th>
 							<th>Ação</th>
@@ -106,6 +108,8 @@
 							<td th:text="${funcionario.id}"></td>
 							<td th:text="${funcionario.nome}"></td>
 							<td th:text="${funcionario.cargo}"></td>
+							<td th:text="${funcionario.email}"></td>
+							<td th:text="${funcionario.senha}"></td>
 							<td th:text="${funcionario.salarioBruto}"></td>
 							<td th:text="${funcionario.cidade}"></td>
 

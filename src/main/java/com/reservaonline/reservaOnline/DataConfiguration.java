@@ -17,7 +17,7 @@ public class DataConfiguration {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource
-                .setUrl("jdbc:mysql://localhost:3306/reservasOnline?useTimezone=true&serverTimezone=America/Sao_Paulo");
+                .setUrl("jdbc:mysql://localhost:3306/reservasonline?useTimezone=true&serverTimezone=America/Sao_Paulo");
         dataSource.setUsername("root");
         dataSource.setPassword("");
         return dataSource;
