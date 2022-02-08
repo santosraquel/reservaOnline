@@ -14,7 +14,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.reservaonline.reservaOnline.modelos.Permissao;
 import com.reservaonline.reservaOnline.repositorios.PermissaoRepositorio;
-import com.reservaonline.reservaOnline.repositorios.EstadoRepositorio;
 import com.reservaonline.reservaOnline.repositorios.FuncionarioRepositorio;
 import com.reservaonline.reservaOnline.repositorios.PapelRepositorio;
 
